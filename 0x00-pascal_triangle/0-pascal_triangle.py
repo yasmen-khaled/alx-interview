@@ -4,6 +4,7 @@
 
 def pascal_triangle(n):
     """
+    python func for  Pascal's Triangle
     """
     if n <= 0:
         return []
