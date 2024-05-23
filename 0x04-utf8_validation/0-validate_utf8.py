@@ -1,9 +1,6 @@
-
 #!/usr/bin/python3
 
-'''
-Determines if a given data set represents a valid UTF-8 encoding.
-'''
+# Determines if a given data set represents a valid UTF-8 encodingI
 
 
 def validUTF8(data):
@@ -15,4 +12,3 @@ def validUTF8(data):
     except BaseException:
         return False
     return True
-
